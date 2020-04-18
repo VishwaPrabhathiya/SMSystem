@@ -1,0 +1,39 @@
+.panelmain{
+	margin-top: 80px;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff0;
+    border-width: 3px;
+}
+.panel-light-green {
+  border-color: #238976;
+}
+.panel-light-green > .panel-heading {
+  border-color: #238976;
+  color: white;
+  font-size: 120%;
+  background-color: #238976;
+}
+.panel-light-yellow {
+  border-color: #f0ad4ea6;
+}
+.panel-light-yellow > .panel-heading {
+  border-color: #f0ad4ea6;
+  color: white;
+  font-size: 120%;
+  background-color: #f0ad4ea6;
+}
+.panel-light-orange {
+  border-color: #65d165bf;
+}
+.panel-light-orange > .panel-heading {
+  border-color: #65d165bf;
+  color: white;
+  font-size: 120%;
+  background-color: #65d165bf;
+}
+.newtxxx {
+    margin-top: 100px;
+	margin-left: 10px;
+}

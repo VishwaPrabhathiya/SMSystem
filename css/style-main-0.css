@@ -1,0 +1,124 @@
+/* Sidebar */
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #222222a1;
+    border-right: 2px solid #222;
+ }
+@media (min-width: 768px) {
+.sidebar {
+	padding: 20px;
+}
+}
+@media (max-width: 768px) {
+.sidebar {
+	padding-top: -30px;
+	padding-right: 13px;
+	padding-left: 3px;
+}
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 10px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  color: #9d9d9d;
+}
+.nav-sidebar > li > a:hover, .nav-sidebar > li > a:focus {
+  background-color: #428bcac2;
+  color: #fff;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+/* Main content */
+
+.main {
+    padding-right: 40px;
+    padding-left: 40px;
+	padding-top: 80px;
+	margin-top: 80px;
+}
+
+#newtd{
+	text-align: right;
+	border: none;
+	vertical-align: unset;
+}
+
+@media only screen and (max-width: 767px) {
+.form-txt{
+	opacity: 0;
+}
+}
+.form-txt {
+  color: #fff;
+  margin-right: 15px;
+  font-size: 125%;
+}
+
+.form-control {
+  position: relative;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+/* form content */
+#addSub{
+	display: none;
+}
+/* dropdown */
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: #3c74a4;
+	color: #fff;
+}
+.dropdown-menu{
+	background-color:#222;
+}
+.dropdown-menu>li>a{
+	color: #9d9d9d;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+	background-color: #337ab7;
+	color: #fff;
+}
+
+/* drpdwn secnd level */
+.sidebar .nav-second-level li,
+.sidebar .nav-third-level li {
+  border-bottom: none !important;
+}
+.sidebar .nav-second-level li a {
+  padding-left: 37px;
+}
+.sidebar .arrow {
+  float: right;
+}
